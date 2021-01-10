@@ -5,7 +5,6 @@ def valid_move?(board, index)
     puts "it's between 0-8"
   if board[index] == "X" || board[index] == "O"
     puts "not taken"
-  end 
 end 
 
 
